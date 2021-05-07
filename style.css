@@ -152,7 +152,7 @@ a {
     .container {
         width: 100%;
         display: inline-block;
-        
+        height: fit-content;
     }
 
     .container .box {        
@@ -161,9 +161,7 @@ a {
         align-items: center;
         box-shadow: 12px 12px 2px 1px #999;
         margin: .5em auto .5em auto;
-        
-
-
+                
     }
 
 }
