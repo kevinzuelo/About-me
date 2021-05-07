@@ -145,19 +145,20 @@ a {
 
 @media(max-width: 600px) {
     .container {
-        width: auto;
+        width: 100%;
         display: flexbox;
+        
+    
 
     }
 
     .container .box {
         
-        width: 500px;
+        width: 100%;
         grid-column: span 4;
         align-items: center;
         box-shadow: 12px 12px 2px 1px #999;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 
 
