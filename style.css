@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+    background-color: #222;
+    color: white;
+    font: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+}
+
+.title {
+    background-color: #333;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    position: relative;
+    opacity: 85%
+}
+
+#top {
+    min-height: 400px;
+}
+
+#top .bgImage {
+    position: absolute;
+    background: url(img/dream.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    opacity: 0.5
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#about {
+    background-color: white;
+    color: #333;
+    padding: 1em;
+    line-height: 2;
+    text-align: center;
+}
+
+#img {
+    padding: 1em;
+}
+
+#dave {
+    padding: 1em;
+}
+
+#dreamTeam {
+    color: white;
+}
+
+#projects {
+    background-color: white;
+    color: #333;
+    padding: 1em;
+}
+
+.container {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.box {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 12px 12px 2px 1px #999;
+}
+
+#store {
+    background-image: url(img/store.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#maker {
+    background-image: url(img/mario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#responsive {
+    background-image: url(img/responsive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#jquery {
+    background-image: url(img/jquery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: white;
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: auto;
+        display: flexbox;
+
+    }
+
+    .container .box {
+        
+        width: auto;
+       grid-column: span 4;
+        align-items: center;
+        box-shadow: 12px 12px 2px 1px #999;
+    }
+
+
+}
